@@ -16,13 +16,16 @@
 
 .dropdown .dropbtn {
   font-size: 16px;
+  vertical-align: center;
+  text-align: center;
   border: none;
+  outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
   margin: 0; }
 
-.navbar a:hover, dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: grey; }
 
 .dropdown-content {
